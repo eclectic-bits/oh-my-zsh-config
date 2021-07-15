@@ -75,6 +75,7 @@ plugins=(
   colored-man-pages
   docker
   dotenv  
+  encode64
   git
   mvn
   nvm
