@@ -78,10 +78,8 @@ plugins=(
   encode64
   git
   gitignore
-  mvn
   nvm
   npm
-  pip
   terraform
   vscode
 )
