@@ -77,6 +77,7 @@ plugins=(
   dotenv  
   encode64
   git
+  gitignore
   mvn
   nvm
   npm
