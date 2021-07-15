@@ -80,6 +80,7 @@ plugins=(
   gitignore
   nvm
   npm
+  npx
   terraform
   vscode
 )
