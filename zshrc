@@ -78,6 +78,7 @@ plugins=(
   encode64
   git
   gitignore
+  jsontools
   nvm
   npm
   npx
