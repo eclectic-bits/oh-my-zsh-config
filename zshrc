@@ -74,6 +74,7 @@ plugins=(
   brew
   colored-man-pages
   docker
+  dotenv  
   git
   mvn
   nvm
