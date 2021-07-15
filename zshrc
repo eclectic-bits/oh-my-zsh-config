@@ -83,6 +83,7 @@ plugins=(
   npm
   npx
   terraform
+  urltools
   vscode
 )
 
