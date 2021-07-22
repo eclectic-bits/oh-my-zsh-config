@@ -82,10 +82,14 @@ plugins=(
   nvm
   npm
   npx
+  ssh-agent
   terraform
   urltools
   vscode
 )
+
+zstyle :omz:plugins:ssh-agent agent-forwarding on
+zstyle :omz:plugins:ssh-agent identities id_rsa_corp id_rsa_personal
 
 source $ZSH/oh-my-zsh.sh
 
