@@ -89,7 +89,10 @@ plugins=(
 )
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
-zstyle :omz:plugins:ssh-agent identities id_rsa_corp id_rsa_personal
+
+# SSH_KEYS is an environment variable containing the name of all keys
+# should be space delimited ex 'id_rsa id_rsa_2'
+zstyle :omz:plugins:ssh-agent identities ${=SSH_KEYS}
 
 source $ZSH/oh-my-zsh.sh
 
