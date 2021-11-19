@@ -81,7 +81,6 @@ plugins=(
   jsontools
   nvm
   npm
-  npx
   ssh-agent
   terraform
   urltools
