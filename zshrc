@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# export PATH=/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -89,10 +91,6 @@ plugins=(
 
 zstyle :omz:plugins:ssh-agent agent-forwarding on
 
-# SSH_KEYS is an environment variable containing the name of all keys
-# should be space delimited ex 'id_rsa id_rsa_2'
-zstyle :omz:plugins:ssh-agent identities ${=SSH_KEYS}
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -125,3 +123,8 @@ source $ZSH/oh-my-zsh.sh
 # nvm, npm, node configuration
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
+export JAVA_HOME=$(/usr/libexec/java_home)
+export M2_HOME=/usr/local/Cellar/maven/3.8.2/bin
+export PATH="/usr/local/opt/openssl/bin:$PATH"
