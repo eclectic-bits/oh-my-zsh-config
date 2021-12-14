@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -26,7 +26,6 @@ plugins=(
   jsontools
   nvm
   npm
-  npx
   ssh-agent
   terraform
   urltools
@@ -42,8 +41,8 @@ source $ZSH/oh-my-zsh.sh
 # export M2_HOME=/usr/local/Cellar/maven/3.8.2/bin
 
 # OPENSSL
-export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH=/usr/local/opt/openssl/bin:$PATH
 
 # VOLTA
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+export VOLTA_HOME=$HOME/.volta
+export PATH=$VOLTA_HOME/bin:$PATH
