@@ -19,7 +19,6 @@ plugins=(
   brew
   colored-man-pages
   docker
-  dotenv  
   encode64
   git
   gitignore
