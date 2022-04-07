@@ -34,11 +34,6 @@ zstyle :omz:plugins:ssh-agent agent-forwarding on
 
 source $ZSH/oh-my-zsh.sh
 
-# JAVA
-# export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
-# export JAVA_HOME=$(/usr/libexec/java_home)
-# export M2_HOME=/usr/local/Cellar/maven/3.8.2/bin
-
 # OPENSSL
 export PATH=/usr/local/opt/openssl/bin:$PATH
 
